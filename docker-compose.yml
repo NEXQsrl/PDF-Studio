@@ -1,0 +1,20 @@
+services:
+  pdf-studio:
+    build: .
+    image: pdf-studio:latest
+    container_name: pdf-studio
+    restart: unless-stopped
+    ports:
+      - "5677:5677"
+    environment:
+      PORT: 5677
+      # Dimensione massima di ogni PDF (allineare anche MAX_FILE_MB in client/src/store.ts)
+      MAX_FILE_MB: 100
+      MAX_FILES: 50
+    # I PDF vengono elaborati in RAM: il limite evita che un carico anomalo saturi l'host.
+    mem_limit: 2g
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
