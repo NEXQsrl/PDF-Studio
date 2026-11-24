@@ -1,0 +1,99 @@
+PDF Studio
+Copyright (c) NEXQ S.r.l. (https://www.nexq.it)
+
+Required Notice: Copyright NEXQ S.r.l. (https://www.nexq.it)
+
+PDF Studio is licensed under the PolyForm Shield License 1.0.0 (see the LICENSE
+file and https://polyformproject.org/licenses/shield/1.0.0). That license
+applies only to the code and materials of NEXQ. The third-party components
+listed below are NOT covered by it: each one is licensed under its own license,
+which the PolyForm Shield License does not restrict.
+
+"PDF" and "Portable Document Format" refer to the ISO 32000 file format.
+PDF Studio is an independent project and is not affiliated with or endorsed by
+Adobe.
+
+Under the license, anyone who gets a copy of PDF Studio must also get its terms
+(or their URL) and the "Required Notice:" line above; the licenses of the
+third-party components require their own notices to be kept as well.
+
+
+THIRD-PARTY COMPONENTS DISTRIBUTED WITH PDF STUDIO
+--------------------------------------------------
+
+The exact versions, including transitive packages, are in package-lock.json;
+the license text of each package is in its folder under node_modules.
+
+Server (Node.js)
+
+  Express
+    Copyright (c) 2009-2014 TJ Holowaychuk, 2013-2014 Roman Shtylman,
+    2014-2015 Douglas Christopher Wilson. MIT License.
+
+  Multer
+    Copyright (c) 2014 Hage Yaapa. MIT License.
+
+  pdf-lib
+    Copyright (c) 2019 Andrew Dillon. MIT License.
+
+  JSZip
+    Copyright (c) 2009-2016 Stuart Knightley, David Duponchel, Franz Buchinger,
+    António Afonso. Dual licensed, MIT OR GPL-3.0-or-later; used here under the
+    MIT License.
+
+Web interface (bundled in client/dist)
+
+  React, React DOM, scheduler
+    Copyright (c) Meta Platforms, Inc. and affiliates. MIT License.
+
+  PDF.js (pdfjs-dist)
+    Copyright Mozilla Foundation. Apache License 2.0.
+
+  Zustand
+    Copyright (c) 2019 Paul Henschel. MIT License.
+
+  idb-keyval
+    Copyright 2016 Jake Archibald. Apache License 2.0.
+
+  dnd kit (@dnd-kit/core, @dnd-kit/sortable, @dnd-kit/utilities)
+    Copyright (c) 2021 Claudéric Demers. MIT License.
+
+  Radix UI (radix-ui, @radix-ui/*)
+    Copyright (c) 2022 WorkOS. MIT License.
+
+  shadcn/ui components (source files in client/src/components/ui, some modified)
+    Copyright (c) 2023 shadcn. MIT License.
+
+  Sonner
+    Copyright (c) 2023 Emil Kowalski. MIT License.
+
+  Lucide icons (lucide-react)
+    Copyright (c) Lucide Icons and Contributors. ISC License.
+    Parts derived from Feather, Copyright (c) 2013-present Cole Bemis.
+    MIT License.
+
+  class-variance-authority
+    Apache License 2.0 (see the package).
+
+  Tailwind CSS (compiled into the style sheet)
+    Copyright (c) Tailwind Labs, Inc. MIT License.
+
+  tw-animate-css (compiled into the style sheet)
+    Copyright (c) 2025 Wombosvideo. MIT License.
+
+  Other MIT, ISC and BSD packages used by the components above (for example
+  cn, clsx, Floating UI, aria-hidden, react-remove-scroll, tslib): see
+  package-lock.json.
+
+Fonts (bundled as .woff2 files)
+
+  Geist (@fontsource-variable/geist)
+    Copyright 2024 The Geist Project Authors (https://github.com/vercel/geist-font).
+    Licensed under the SIL Open Font License, Version 1.1
+    (https://openfontlicense.org).
+
+
+COMPONENTS USED ONLY TO BUILD (NOT DISTRIBUTED)
+
+  TypeScript, Vite, @vitejs/plugin-react, @tailwindcss/vite, shadcn CLI,
+  concurrently and their dependencies.

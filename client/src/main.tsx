@@ -16,7 +16,7 @@ createRoot(document.getElementById('root')!).render(
           <ErrorBoundary>
             <App />
           </ErrorBoundary>
-          <Toaster position="top-center" offset={68} richColors />
+          <Toaster position="bottom-center" richColors />
         </TooltipProvider>
       </I18nProvider>
     </ThemeProvider>
